@@ -1,6 +1,6 @@
 import { Mongoose } from "mongoose";
 
-const userModel = new Mongoose.Schema({
+export const userModel = new Mongoose.Schema({
     name: {
         type:String,
         required: true,
